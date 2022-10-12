@@ -13,7 +13,7 @@ Luego de tener la infraestructura disponible, realizar los despliegues de aplica
 Utilizando los archivos de la carpeta Kubernetes
 
 ## NOTA:
-La demo utiliza una aplicación de demostración que la podrá encontrar en el repositorio: 
+La demo utiliza una aplicación de demostración, la cual encontrará en el repositorio: 
 
 https://github.com/yovafree/order-system-demo
 
