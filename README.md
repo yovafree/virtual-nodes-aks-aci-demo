@@ -1,6 +1,8 @@
 # Nodos Virtuales con AKS y ACI
 
-En esta demo podrá encontrar los archivos necesarios para desplegar una infraestructura con AKS y habilitar la capacidad de nodos virtuales. 
+En esta demo podrá encontrar los archivos necesarios para desplegar una infraestructura con AKS y habilitar la capacidad de nodos virtuales.
+
+[Presentación de la demo](./aks_aci_azure.pdf)
 
 ## Pasos
 
