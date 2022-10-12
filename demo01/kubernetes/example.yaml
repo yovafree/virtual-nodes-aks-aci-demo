@@ -17,6 +17,13 @@ spec:
         image: mcr.microsoft.com/azuredocs/aci-helloworld
         ports:
         - containerPort: 80
+        resources:
+          limits:
+            cpu: 500m
+            memory: 1024Mi
+          requests:
+            cpu: 500m
+            memory: 1024Mi
       nodeSelector:
         kubernetes.io/role: agent
         beta.kubernetes.io/os: linux

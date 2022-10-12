@@ -37,6 +37,20 @@ spec:
           value: "rabbitmq-svc"
         - name: PaymentAPI_URL
           value: "http://payment-svc"
+        resources:
+          limits:
+            cpu: 500m
+            memory: 1024Mi
+          requests:
+            cpu: 500m
+            memory: 1024Mi
         ports:
         - containerPort: 80
         imagePullPolicy: Always
+      nodeSelector:
+        kubernetes.io/role: agent
+        beta.kubernetes.io/os: linux
+        type: virtual-kubelet
+      tolerations:
+      - key: virtual-kubelet.io/provider
+        operator: Exists
